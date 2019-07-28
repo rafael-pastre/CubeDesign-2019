@@ -1,0 +1,64 @@
+cmath:599:3:constexpr bool std::isinf(double)	32	static
+cmath:626:3:constexpr bool std::isnan(double)	16	static
+lora.h:59:10:size_t LoRaClass::write(const char*)	24	static
+lora.cpp:67:1:LoRaClass::LoRaClass()	16	static
+lora.cpp:78:5:int LoRaClass::sendPacket(void*, size_t)	32	static
+lora.cpp:88:5:int LoRaClass::readPacket(void*, size_t)	32	static
+lora.cpp:103:6:void LoRaClass::reset()	16	static
+lora.cpp:113:5:int LoRaClass::begin(long int)	24	static
+lora.cpp:160:6:void LoRaClass::end()	16	static
+lora.cpp:170:5:int LoRaClass::beginPacket(int)	16	static
+lora.cpp:193:6:void LoRaClass::delayUS(unsigned int)	16	static
+lora.cpp:200:5:int LoRaClass::endPacket(bool)	16	static
+lora.cpp:222:6:bool LoRaClass::isTransmitting()	16	static
+lora.cpp:237:5:int LoRaClass::parsePacket(int)	24	static
+lora.cpp:283:5:int LoRaClass::packetRssi()	24	static
+lora.cpp:289:7:float LoRaClass::packetSnr()	24	static
+lora.cpp:295:6:long int LoRaClass::packetFrequencyError()	40	static
+lora.cpp:315:8:virtual size_t LoRaClass::write(uint8_t)	16	static
+lora.cpp:321:8:virtual size_t LoRaClass::write(const uint8_t*, size_t)	32	static
+lora.cpp:342:5:virtual int LoRaClass::available()	16	static
+lora.cpp:348:5:virtual int LoRaClass::read()	16	static
+lora.cpp:360:5:virtual int LoRaClass::peek()	24	static
+lora.cpp:379:6:virtual void LoRaClass::flush()	16	static
+lora.cpp:384:6:void LoRaClass::onReceive(void (*)(int))	16	static
+lora.cpp:406:6:void LoRaClass::receive(int)	16	static
+lora.cpp:420:6:void LoRaClass::idle()	16	static
+lora.cpp:426:6:void LoRaClass::sleep()	16	static
+lora.cpp:432:6:void LoRaClass::setTxPower(int, int)	24	static
+lora.cpp:470:6:void LoRaClass::setFrequency(long int)	40	static
+lora.cpp:482:5:int LoRaClass::getSpreadingFactor()	16	static
+lora.cpp:488:6:void LoRaClass::setSpreadingFactor(int)	16	static
+lora.cpp:509:6:long int LoRaClass::getSignalBandwidth()	24	static
+lora.cpp:530:6:void LoRaClass::setSignalBandwidth(long int)	24	static
+lora.cpp:561:6:void LoRaClass::setLdoFlag()	40	static
+lora.cpp:584:6:void LoRaClass::setCodingRate4(int)	24	static
+lora.cpp:598:6:void LoRaClass::setPreambleLength(long int)	16	static
+lora.cpp:605:6:void LoRaClass::setSyncWord(int)	16	static
+lora.cpp:611:6:void LoRaClass::enableCrc()	16	static
+lora.cpp:617:6:void LoRaClass::disableCrc()	16	static
+lora.cpp:623:6:void LoRaClass::enableInvertIQ()	16	static
+lora.cpp:630:6:void LoRaClass::disableInvertIQ()	16	static
+lora.cpp:637:6:void LoRaClass::setOCP(uint8_t)	24	static
+lora.cpp:651:9:uint8_t LoRaClass::random()	16	static
+lora.cpp:657:6:void LoRaClass::setPins(GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, IRQn_Type)	24	static
+lora.cpp:667:6:void LoRaClass::setSPI(SPI_HandleTypeDef*)	16	static
+lora.cpp:673:6:void LoRaClass::setTIM(TIM_HandleTypeDef*)	16	static
+lora.cpp:680:6:void LoRaClass::dumpRegisters()	24	static
+lora.cpp:691:6:void LoRaClass::explicitHeaderMode()	16	static
+lora.cpp:699:6:void LoRaClass::implicitHeaderMode()	16	static
+lora.cpp:707:6:void LoRaClass::handleDio0Rise()	24	static
+lora.cpp:734:9:uint8_t LoRaClass::readRegister(uint8_t)	24	static
+lora.cpp:747:6:void LoRaClass::writeRegister(uint8_t, uint8_t)	24	static
+lora.cpp:759:9:uint8_t LoRaClass::singleTransfer(uint8_t, uint8_t)	32	static
+lora.cpp:794:6:void LoRaClass::onDio0Rise()	16	static
+lora.cpp:802:8:size_t LoRaClass::print(const char*)	16	static
+lora.cpp:807:8:size_t LoRaClass::print(char)	16	static
+lora.cpp:812:8:size_t LoRaClass::print(unsigned char, int)	24	static
+lora.cpp:817:8:size_t LoRaClass::print(int, int)	24	static
+lora.cpp:822:8:size_t LoRaClass::print(unsigned int, int)	24	static
+lora.cpp:827:8:size_t LoRaClass::print(long int, int)	32	static
+lora.cpp:843:8:size_t LoRaClass::print(long unsigned int, int)	24	static
+lora.cpp:849:8:size_t LoRaClass::print(double, int)	24	static
+lora.cpp:856:8:size_t LoRaClass::printNumber(long unsigned int, uint8_t)	64	static
+lora.cpp:876:8:size_t LoRaClass::printFloat(double, uint8_t)	72	static

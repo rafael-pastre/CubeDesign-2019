@@ -1,0 +1,4 @@
+zenith_can_lib.cpp:16:6:void filterConfigCAN(CAN_HandleTypeDef*)	56	static
+zenith_can_lib.cpp:34:9:uint8_t sendCanMessage(CAN_HandleTypeDef*, Z_CAN_Package)	56	static
+zenith_can_lib.cpp:54:15:Z_CAN_Package readCanMessages(CAN_HandleTypeDef*)	48	static
+zenith_can_lib.cpp:67:9:uint8_t isEqual(Z_CAN_Package, Z_CAN_Package)	32	static

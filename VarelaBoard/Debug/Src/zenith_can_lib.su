@@ -1,0 +1,4 @@
+zenith_can_lib.c:16:6:filterConfigCAN	56	static
+zenith_can_lib.c:34:9:sendCanMessage	56	static
+zenith_can_lib.c:54:15:readCanMessages	72	static
+zenith_can_lib.c:67:9:isEqual	32	static
